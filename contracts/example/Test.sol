@@ -10,7 +10,7 @@ contract Test {
     uint256 k = now;
 
 
-    function attack() public payable {
+    function destruct() public payable {
 
        
         selfdestruct(payable(msg.sender));
