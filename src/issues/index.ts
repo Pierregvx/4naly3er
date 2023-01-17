@@ -11,5 +11,9 @@ for (let file of fileNames) {
     issues.push(require(file).default);
   }
 }
+// log all issues names
+ for (const issue of issues) {
+   console.log(issue.title);
+}
 
 export default issues;
